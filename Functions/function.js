@@ -62,6 +62,11 @@ let summArrow = (a,b) => a+b;
 console.log(summArrow(10,20))
 
 //hoisting in function
+//Hoisting in JavaScript is a mechanism where variable and function declarations are conceptually moved to the top of their containing scope during the compilation phase, before the code is executed. This means that you can use a variable or call a function before it is declared in the code. 
+function fun(a,b){
+    console.log(a+b);
+}
+fun(5,11)
 
 
 console.log("End of function.js");
