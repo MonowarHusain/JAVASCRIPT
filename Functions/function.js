@@ -68,5 +68,22 @@ function fun(a,b){
 }
 fun(5,11)
 
+//scope in function
+
+function fun(a,b){
+    let c = a + b; //c is local to this function
+    console.log(c);
+}
+fun(10,20);
+//console.log(c); //error: c is not defined
+//we cannot access c outside the function
+
+
+// let x=100 //global variable
+// function fun(a,b){
+//     let c = a + b + x //c is local to this function
+//     console.log(c)
+// }
+// fun(10,20)
 
 console.log("End of function.js");
