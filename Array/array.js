@@ -15,7 +15,7 @@ console.log(array1);
 array1.push('monowar'); // adding string element
 console.log(array1);
 
-array1.push('Husain', 22301098, 3.56); // adding multiple elements in a single push
+array1.push('Husain', 22301098, 2.00); // adding multiple elements in a single push
 console.log(array1);
 
 
@@ -67,6 +67,10 @@ array2.forEach((element) => {
     console.log("Element:", element)
 });
 
+// Accessing index in forEach
+array2.forEach((element, index) => {
+    console.log(`Element at index ${index}:`, element)
+}); 
 
 console.log("map method");
 //map method creates a new array populated with the results of calling a provided function on every element in the calling array.
@@ -75,5 +79,7 @@ console.log("map method");
 array2.map((element) => {
     console.log("Mapped Element:", element);
 });
+
+
 
 
