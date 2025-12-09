@@ -77,4 +77,3 @@ array2.map((element) => {
 });
 
 //hello
-//kkk
