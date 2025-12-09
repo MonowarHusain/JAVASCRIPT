@@ -56,11 +56,23 @@ console.log("Array after unshift:", array1);
 
 
 //array methods
+
+console.log("for each method");
 //forEach method executes a provided function once for each array element. like for loop
 
+//Returns undefined
 let array2 = [10, 20, 30, 40, 50];
 
 array2.forEach((element) => {
-    console.log("Element:", element);
+    console.log("Element:", element)
+});
+
+
+console.log("map method");
+//map method creates a new array populated with the results of calling a provided function on every element in the calling array.
+//Returns a new array with the results of the callback function
+
+array2.map((element) => {
+    console.log("Mapped Element:", element);
 });
 
