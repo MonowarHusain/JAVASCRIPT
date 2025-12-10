@@ -29,8 +29,8 @@ The code is organized into folders or files corresponding to the topics covered 
 
 Here is a checklist of the concepts I am mastering through the playlist:
 
-- [ ] **Introduction & Setup** (Environment setup)
-- [ ] **Variables & Constants** (`var`, `let`, `const`)
+- [x] **Introduction & Setup** (Environment setup)
+- [x] **Variables & Constants** (`var`, `let`, `const`)
 - [ ] **Data Types** (Primitive vs Reference types)
 - [ ] **Operators** (Arithmetic, Logical, Comparison)
 - [ ] **Control Flow** (Conditionals, Loops, Switch)
