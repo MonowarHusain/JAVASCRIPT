@@ -81,5 +81,23 @@ array2.map((element) => {
 });
 
 
+//filter method creates a new array with all elements that pass the test implemented by the provided function.
+let newArray = array2.filter((element) => {
+    return element > 2; // filter elements greater than 2
+});
 
+console.log("Filtered Array:", newArray);
 
+//reduce method executes a reducer function (that you provide) on each element of the array, resulting in a single output value.
+let sum = array2.reduce((accumulator, currentValue) => {
+    return accumulator + currentValue;
+}, 0);
+
+console.log("Sum of elements using reduce:", sum);
+
+//find method returns the value of the first element in the provided array that satisfies the provided testing function.
+let foundElement = array2.find((element) => {
+    return element > 20;
+});     
+
+console.log("Found Element using find:", foundElement);
