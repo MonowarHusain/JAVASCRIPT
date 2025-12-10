@@ -1,12 +1,19 @@
 # 💛 JavaScript Learning Journey
 
-Welcome to my JavaScript repository! This repository documents my journey learning JavaScript, from the basic syntax to advanced concepts and small projects.
+Welcome to my JavaScript repository! This repository documents my progress as I learn JavaScript from scratch, following structured video tutorials and building small projects along the way.
 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Learning Status](https://img.shields.io/badge/Status-Learning-green)
+**Current Status:** 🌱 Learning & Coding Daily
+
+---
+
+## 📚 Course Material
+
+I am currently following this YouTube Playlist to structure my learning:
+> **📺 Playlist:** [JavaScript Tutorial Playlist](https://www.youtube.com/playlist?list=PLwY6MfTsApmx3hJPoqFkmuWIv_3QTCkDG)
 
 ## 📂 Repository Structure
 
-The code is organized into folders/files based on the topics I am currently studying:
+The code is organized into folders or files corresponding to the topics covered in the course videos:
 
 | Directory/File | Description |
 | :--- | :--- |
@@ -14,33 +21,34 @@ The code is organized into folders/files based on the topics I am currently stud
 | `02-Control-Flow/` | If-else statements, Switch, and Loops |
 | `03-Functions/` | Arrow functions, Callbacks, and Scope |
 | `04-Arrays-Objects/` | Array methods (map, filter, reduce) and Object manipulation |
-| `05-DOM-Manipulation/` | Selecting elements and Event Listeners |
-| `06-Async-JS/` | Promises, Async/Await, and Fetch API |
+| `05-DOM/` | DOM Manipulation and Events |
+| `06-Async/` | Promises, Async/Await, and Fetch API |
 | `Projects/` | Small practice projects (Calculators, To-Do Lists, etc.) |
 
-*(Note: You can update this table to match the actual folder names in your repo!)*
+## 🚀 Learning Progress
 
-## 🚀 Topics Covered
+Here is a checklist of the concepts I am mastering through the playlist:
 
-Here is a checklist of the concepts I have practiced in this repository:
-
+- [ ] **Introduction & Setup** (Environment setup)
 - [ ] **Variables & Constants** (`var`, `let`, `const`)
-- [ ] **Data Types** (Strings, Numbers, Booleans, Null, Undefined)
+- [ ] **Data Types** (Primitive vs Reference types)
 - [ ] **Operators** (Arithmetic, Logical, Comparison)
-- [ ] **Control Flow** (Conditionals & Loops)
+- [ ] **Control Flow** (Conditionals, Loops, Switch)
 - [ ] **Functions** (Declarations, Expressions, Arrow Functions)
-- [ ] **Data Structures** (Arrays & Objects)
-- [ ] **DOM Manipulation** (Events, Element creation)
-- [ ] **ES6+ Features** (Destructuring, Spread/Rest, Modules)
-- [ ] **Asynchronous JavaScript** (Callbacks, Promises, Async/Await)
+- [ ] **Arrays & Strings** (Methods and Properties)
+- [ ] **Objects & Prototypes** (OOP basics)
+- [ ] **The DOM** (Selecting and changing HTML elements)
+- [ ] **Event Listeners** (Click, Hover, Input events)
+- [ ] **ES6+ Features** (Destructuring, Spread, Modules)
+- [ ] **Asynchronous JS** (Promises, Async/Await)
 
-## 🛠️ How to Run
+## 🛠️ How to Run the Code
 
-To run any of the `.js` files in this repository, you can use Node.js or the browser console.
+To test the code in this repository, you can use **Node.js** or a **Web Browser**.
 
-**Using Node.js:**
-1. Open your terminal.
-2. Navigate to the file location.
-3. Run the command:
+### Option 1: Using Node.js (Terminal)
+1. Open your terminal/command prompt.
+2. Navigate to the file directory.
+3. Run the file:
    ```bash
    node filename.js
