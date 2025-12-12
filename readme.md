@@ -2,8 +2,7 @@
 
 Welcome to my JavaScript repository! This repository documents my progress as I learn JavaScript from scratch, following structured video tutorials and building small projects along the way.
 
-**Current Status:** 🌱 Learning & Coding Daily
-
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Learning Status](https://img.shields.io/badge/Status-Learning-green)
 ---
 
 ## 📚 Course Material
@@ -29,8 +28,8 @@ The code is organized into folders or files corresponding to the topics covered 
 
 Here is a checklist of the concepts I am mastering through the playlist:
 
-- [ ] **Introduction & Setup** (Environment setup)
-- [ ] **Variables & Constants** (`var`, `let`, `const`)
+- [x] **Introduction & Setup** (Environment setup)
+- [x] **Variables & Constants** (`var`, `let`, `const`)
 - [ ] **Data Types** (Primitive vs Reference types)
 - [ ] **Operators** (Arithmetic, Logical, Comparison)
 - [ ] **Control Flow** (Conditionals, Loops, Switch)
